@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- internal css -->
+    <style>
+        /* h1{
+            color: red;
+        } */
+        h1{
+            color: green;
+            background-color: yellow;
+        }
+
+        /* class-id */
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            color: white;
+        }
+        #item{
+            font-size: 25px;
+            color: green;
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <!-- <tag inline css></tag> -->
+    <!-- higer priority -->
+    <h1 style="color: red; font-size: 55px;background-color: aqua;">Lorem ipsum dolor sit amet.</h1>
+    <h1 style="color: blue;">Lorem ipsum dolor sit amet.</h1>
+    <h1 class="box">Lorem ipsum dolor sit amet.</h1>
+    <p style="color: red;">Lorem ipsum dolor sit amet.</p>
+
+    <div class="box">div</div>
+    <p class="box">p</p>
+    <h3 id="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloribus recusandae cumque necessitatibus voluptas iusto nulla deserunt quas expedita quod?</h3>
+    <p id="item">Lorem ipsum dolor sit amet.</p>
+
+    <div class="d1">Lorem ipsum dolor sit amet.</div>
+</body>
+</html>
