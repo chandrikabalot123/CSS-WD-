@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 40px;
+    width: 100%;
+}
+.line a{
+    text-decoration: none;
+font-weight: 700;
+color: black;
+}
+.line{
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+}
+.sec1{
+    background-image: url(./img/psd1img.png);
+    height: 100vh;
+    width: 100%;
+    padding: 200px 30px 30px 30px;
+
+}
+.food{
+    height: 6px;
+    width: 40%;
+    background-color: green;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 20px 0 20px 0;
+}
+h1,h3,p{
+    padding: 10px;
+    color: green;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sec2{
+    text-align: center;
+    padding: 50px;
+}
+.sec3{
+    display: flex;
+    justify-content: space-between;
+}
+.division1{
+    flex-direction: column;
+    padding: 30px;
+}
+.division2{
+    padding: 30px;
+
+}
+.sec4 {
+    display: flex;
+    justify-content: space-between;
+}
+.sec5{
+    text-align: center;
+    padding: 30px;
+}
+.sec6{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.divi1{
+    flex-direction: column;
+    padding: 50px;
+    
+}
+.sec6 .divi2{
+    color: green;
+    font-weight: bold;
+}
+.sec7{
+    display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    background-color: whitesmoke;
+}
+.sec7 .div71{
+    color: green;
+    padding: 30px;
+    margin: 20px 20px 20px 20px;
+}
+.sec7 .div71 h3{
+    letter-spacing: 8px;
+}
+.sec7 .div72 img{
+    border-radius: 60%;
+    border: solid white;
+    margin-left: 10%;
+}
+.sec8{
+    display: flex;
+    justify-content: space-around;
+}
+.box8{
+
+    width: 25%;
+    border: solid green;
+    text-align: center;
+    padding: 60px;
+}
+.box8 .divchild{
+    background-color: green;
+    color: white;
+}
+.sec9{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: whitesmoke;
+}
+.div91 img{
+    border-radius: 10px;
+}
+.div92{
+    color: green;
+}
+.div92 h2{
+    padding-left: 12px;
+}
+.div92 h3{
+    letter-spacing: 10px;
+}
+.div92 h1 {
+    word-spacing: 13px;
+}
+.sec10{
+    display: flex;
+    justify-content: space-between;
+}

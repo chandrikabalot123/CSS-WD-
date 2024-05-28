@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main {
+        height: 80vh;
+        width: 70%;
+        margin: 0px auto;
+        background-color: rgb(77, 75, 75);
+        display: grid;
+        gap: 20px;
+        grid-template-rows: 1fr 2fr 2fr 1.3fr;
+        grid-template-columns: 1fr 1.3fr 1.3fr;
+        padding: 10px;
+      }
+      .box {
+        border: 5px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+      #item1 {
+        grid-column: 1/4;
+        grid-row: 1/2;
+        background-color: blueviolet;
+      }
+      #item2 {
+        grid-row: 2/4;
+        grid-column: 1/2;
+        background-color: rgb(27, 128, 128);
+      }
+      #item3 {
+        grid-column: 2/4;
+        background-color: rgb(66, 66, 137);
+      }
+      #item4 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        background-color: rgb(66, 66, 137);
+      }
+      #item5 {
+        grid-column: 3/4;
+        grid-row: 3/4;
+        background-color: rgb(66, 66, 137);
+      }
+      #item6 {
+        grid-column: 1/4;
+        grid-row: 4/5;
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box" id="item1">HEADER</div>
+      <div class="box" id="item2">SIDEBAR</div>
+      <div class="box" id="item3">CONTENT-1</div>
+      <div class="box" id="item4">CONTENT-2</div>
+      <div class="box" id="item5">CONTENT-3</div>
+      <div class="box" id="item6">FOOTER</div>
+    </div>
+  </body>
+</html>
