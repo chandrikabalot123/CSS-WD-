@@ -14,15 +14,59 @@
       }
       .box {
         display: flex;
-        text-align: center;
+        padding: 30px;
+        border: 2px white;
+      }
+      .btn1 {
+        background-color: white;
+        color: gray;
+        border: none;
+        border-color: white;
+      }
+      .btn2 {
+        background-color: gray;
+        color: white;
+        border: none;
+        border: 2px solid white;
+        border-color: white;
+      }
+      .nav1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .nav2 {
+        display: flex;
+      }
+      .nav2 ul {
+        list-style-type: none;
+        display: flex;
+        gap: 30px;
+      }
+      a {
+        color: white;
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
     <div class="main">
-      <div class="box">
-        <button>L</button>
-        <button>ogo</button>
+      <div class="nav1">
+        <div class="box">
+          <button class="btn1">L</button>
+          <button class="btn2">ogo</button>
+        </div>
+        <div class="nav2">
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="">PORTFOLIO</a></li>
+            <li><a href="">PRICING</a></li>
+            <li><a href="">TEAM</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>

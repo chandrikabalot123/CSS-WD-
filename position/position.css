@@ -1,0 +1,161 @@
+
+
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: #01e37f;
+     /* display: grid;
+     grid-template-rows: 1fr; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 50px;
+     height: 100vh;
+ }
+
+  .main {
+      /* display: grid;
+     grid-template-columns: 0.9fr 1fr;  */
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     /* margin: auto; */
+     padding: 0px 20px;
+     background-color: white;
+     /* border-radius: 5px; */
+     width: 60%;
+    
+ }
+
+ /* .product-photo {
+     position: relative;
+ }
+
+ .photo-container {
+     position: absolute;
+     left: -2.5em;
+     display: grid;
+     grid-template-rows: 1fr;
+     width: 100%;
+     height: 100%;
+     border-radius: 6px;
+     box-shadow: 4px 4px 25px -2px rgba(0, 0, 0, 0.3);
+ }
+
+ .box {
+     width: 40%;
+     border: 2px solid black;
+     background-color: rgb(157, 223, 58);
+
+ }
+
+ .icon {
+     display: flex;
+     justify-content: space-between;
+ } */
+ .product-photo{
+    position: relative;
+ }
+ .photo-container{
+    background-color: white;
+position: relative;
+right: 70px;
+border-radius: 7px;
+ }
+ 
+ .box {
+     width: 100%;
+     border-radius: 5px;
+     background-color: rgb(157, 223, 58);
+      /* position: relative;
+     right: 50px;  */
+
+ }
+ .icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+ }
+ .bigimg{
+    position: relative;
+    right: 90px;
+ }
+ .box1{
+    padding: 10px; 
+    margin: 50px auto;
+ }
+ .apple{
+    padding: 10px;
+ }
+.apple ul{
+    display: flex;
+    justify-content: space-around;
+}
+.apple ul li{
+    list-style-type: none;
+
+}
+.apple ul li :hover{
+    border: 2px solid black;
+}
+.title{
+    margin: 30px auto;
+}
+.title span{
+    font-size: small;
+    color: secondary;  
+}
+.price{
+    margin:30px auto ;
+    color: red;
+}
+.price span{
+    font-size: 50px;
+   
+}
+.apple1:hover{
+    border: 1px;
+}
+.apple1 ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.apple2{
+margin: 10px;
+font-weight: lighter;
+font-size: 14px;
+}
+
+
+.apple1  ul li {
+    list-style-type: none;
+    
+}
+.apple1  ul li:hover {
+   transform: scale(1.3);
+   border: 3px solid black;
+}
+.benefits{
+    margin: 30px;
+}
+.benefits ul {
+    margin: 6px;
+    font-size: 13px;
+}
+.benefits ul li {
+    margin: 4px;
+}
+.button{
+    width: 60% ;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+}
+   
