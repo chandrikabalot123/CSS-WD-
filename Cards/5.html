@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+      }
+      .card {
+        display: inline-block;
+        position: relative;
+        width: 300px;
+        height: 300px;
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 5px 5px 30px rgb(57, 48, 48);
+        margin-bottom: 20px;
+        /* margin-left: 20px; */
+      }
+      .img {
+        height: 70%;
+      }
+
+      .text {
+        position: absolute;
+        top: 61%;
+        left: 50px;
+        height: 65%;
+        width: 130%;
+        background: rgb(80, 211, 221);
+        background: linear-gradient(
+          0deg,
+          rgba(80, 211, 221, 1) 0%,
+          rgba(205, 104, 241, 1) 100%
+        );
+        border-radius: 10px;
+        transform: skew(60deg, 347deg);
+      }
+      .bg1-color {
+        background: rgb(20, 21, 21);
+        background: linear-gradient(
+          0deg,
+          rgba(20, 21, 21, 1) 0%,
+          rgba(139, 131, 142, 1) 100%
+        );
+      }
+      .text:hover {
+        background-color: darkblue;
+      }
+      .logo {
+        height: 60px;
+        width: 60px;
+        border-radius: 20px;
+        background-color: #fff;
+        position: absolute;
+        left: 30px;
+        bottom: 30%;
+        overflow: hidden;
+        box-shadow: 5px 5px 30px rgb(114, 168, 228);
+      }
+      .logo img {
+        height: 100%;
+        width: 100%;
+      }
+      .maintext {
+        position: absolute;
+        right: 10px;
+        bottom: 35%;
+        height: 35px;
+        width: 50%;
+        color: #fff;
+      }
+      .date {
+        position: absolute;
+        color: #fff;
+        left: 30px;
+        bottom: 10%;
+      }
+      .btn {
+        position: absolute;
+        color: #fff;
+        right: 30px;
+        bottom: 10%;
+        border: 1px solid #fff;
+        padding: 8px;
+      }
+      .btn a {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="card">
+        <img src="./img/cartoon4.jpg" alt="" class="img" />
+        <div class="text" id=""></div>
+        <div class="logo">
+          <img src="./img/legent.jpeg" alt="" />
+        </div>
+        <div class="maintext">
+          <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+        </div>
+        <div class="date">
+          <p>12.12.2024</p>
+        </div>
+        <div class="btn">
+          <a href="">learn more</a>
+        </div>
+      </div>
+      <!-- 2...................... -->
+      <div class="card">
+        <img src="./img/carton2.jpg" alt="" class="img" />
+        <div class="text bg1-color"></div>
+        <div class="logo">
+          <img src="./img/legent.jpeg" alt="" />
+        </div>
+        <div class="maintext">
+          <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+        </div>
+        <div class="date">
+          <p>12.12.2024</p>
+        </div>
+        <div class="btn">
+          <a href="">learn more</a>
+        </div>
+      </div>
+      <!-- 3........................... -->
+      <div class="card">
+        <img src="./img/cartoon3.jpg" alt="" class="img" />
+        <div class="text" id="three"></div>
+        <div class="logo">
+          <img src="./img/legent.jpeg" alt="" />
+        </div>
+        <div class="maintext">
+          <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+        </div>
+        <div class="date">
+          <p>12.12.2024</p>
+        </div>
+        <div class="btn">
+          <a href="">learn more</a>
+        </div>
+      </div>
+      <!-- 4...................... -->
+      <div class="card">
+        <img src="./img/carton6.avif" alt="" class="img" width="110%" />
+        <div class="text bg1-color" id="four"></div>
+        <div class="logo">
+          <img src="./img/legent.jpeg" alt="" />
+        </div>
+        <div class="maintext">
+          <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+        </div>
+        <div class="date">
+          <p>12.12.2024</p>
+        </div>
+        <div class="btn">
+          <a href="">learn more</a>
+        </div>
+      </div>
+      <!-- 5.............................. -->
+      <div class="card">
+        <img src="./img/carton7.jpg" alt="" class="img" width="110%" />
+        <div class="text" id="five"></div>
+        <div class="logo">
+          <img src="./img/legent.jpeg" alt="" />
+        </div>
+        <div class="maintext">
+          <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+        </div>
+        <div class="date">
+          <p>12.12.2024</p>
+        </div>
+        <div class="btn">
+          <a href="">learn more</a>
+        </div>
+      </div>
+      <!-- 6....................... -->
+      <div class="card">
+        <img src="./img/carton8.jpeg" alt="" class="img" />
+        <div class="text bg1-color" id=""></div>
+        <div class="logo">
+          <img src="./img/legent.jpeg" alt="" />
+        </div>
+        <div class="maintext">
+          <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+        </div>
+        <div class="date">
+          <p>12.12.2024</p>
+        </div>
+        <div class="btn">
+          <a href="">learn more</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

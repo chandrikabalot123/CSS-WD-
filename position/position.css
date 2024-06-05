@@ -57,9 +57,9 @@
      display: flex;
      justify-content: space-between;
  } */
- .product-photo{
-    position: relative;
- }
+ /* .product-photo{
+ position: relative; 
+ }   */
  .photo-container{
     background-color: white;
 position: relative;
@@ -75,7 +75,7 @@ border-radius: 7px;
      right: 50px;  */
 
  }
- .icon{
+ .icon{ 
     display: flex;
     justify-content: space-between;
     padding: 10px;
