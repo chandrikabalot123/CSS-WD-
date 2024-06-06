@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+      }
+      .box {
+        width: 40%;
+        height: 500px;
+        border: 2px solid black;
+        border-radius: 13px;
+
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      }
+      .box img {
+        border-top-left-radius: 11px;
+        border-top-right-radius: 11px;
+      }
+      h1 {
+        text-align: center;
+      }
+      @media (max-width: 991.98px) {
+        .main {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+      @media (max-width: 767.98px) {
+        .main {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box">
+        <img src="./img/barbei.jpg" alt="" width="100%" height="400px" />
+        <h1>cheenu</h1>
+        <button>on</button>
+      </div>
+      <div class="box">
+        <img src="./img/b2.jpg" alt="" width="100%" height="400px" />
+      </div>
+      <div class="box">
+        <img
+          src="./img/3d1257eb5f185e1dd3f622795e79f2f3.jpg"
+          alt=""
+          width="100%"
+          height="400px"
+        />
+      </div>
+      <div class="box">
+        <img src="./img/barbei.jpg" alt="" width="100%" height="400px" />
+      </div>
+    </div>
+  </body>
+</html>
